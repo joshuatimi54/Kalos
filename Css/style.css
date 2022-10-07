@@ -1,0 +1,335 @@
+/* -------------------------------------
+colors
+--------------------------------------*/
+:root{
+  --bdc : rgba( 255, 255, 255, 0.2 );
+  --tc : rgb(255,255,255);
+  --bbg : rgb(189,200,242);
+  --bg : rgba( 255, 255, 255, 0.3);
+  --bs : rgba(31, 38, 135, 0.37);
+  --nw : linear-gradient(43deg, #94E1F2 0%, #C850C0 46%, #FFCC70 100%);
+  --bc : rgb(0,0,0);
+  --lg : linear-gradient(223deg, #94E1F2 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+
+/*--------------------------------------
+Button 
+--------------------------------------*/
+
+button{
+  font-family: 'tenor sans', sans-serif;
+  color: white;
+  border-radius: 4vh;
+  border:none;
+  width: max-content;
+  background-image: var(--nw);
+  outline:none;
+  box-shadow: 0 8px 32px 0 var(--bs);
+  margin-top: 3vh;
+  font-size: 20px;
+  padding: 10px 15px;
+}
+
+a{
+  color:#FFFFFF;
+}
+
+
+/* -------------------------------------
+General 
+--------------------------------------*/
+*{
+  margin : 0px;
+  padding: 0px;
+}
+body { 
+  font-family: 'Montserrat', sans-serif;
+  color: var(--tc);
+  text-align : center;
+}
+.grad {
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  background-repeat: no-repeat;
+  background-size: 200vh 100vh;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.all {
+  margin: auto;
+  border-radius: 30px;
+}
+
+.bt {
+  color : var(--bc);
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+  margin: 0px;
+}
+
+h4 {
+  text-align: center ;
+}
+
+
+/*--------------------------------------
+header 
+--------------------------------------*/
+
+.navbar {
+  background-color: var(--bbg);
+}
+
+.logo img {
+  width: 100px;
+}
+
+.navbar-toggler {
+  margin-top : 0px;
+  width : auto;
+  padding-top: 0px;
+}
+
+.navbar button {
+  background-image :none ;
+}
+
+
+/*--------------------------------------
+menu bar 
+--------------------------------------*/
+
+.menu {
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 30px;
+  height: 4px;
+  background-color: rgb(0, 0, 0);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+/* Fade out the second bar */
+.change .bar2 {opacity: 0;}
+
+/* Rotate last bar */
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+
+/*--------------------------------------
+Home 
+--------------------------------------*/
+
+.home {
+  padding-top: 150px;
+  padding-bottom : 50px;
+  background-color: var(--bbg);
+}
+.lay1 {
+  background-image: var(--nw);
+  text-align: center ;
+}
+.lay2{
+  text-align: center;
+}
+
+.lay2 img {
+  border-radius: 30px;
+  width : 100%;
+} 
+
+/*--------------------------------------
+Services
+--------------------------------------*/
+
+.services {
+  background-image : url('/Images/Background/images4.jpeg ');
+  text-align : center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--bc);
+}
+
+.lay3 {
+  background-color:  var(--bdc);
+  margin-bottom: 50px;
+}
+
+.icon {
+  font-size: 40px;
+  width : fit-content;
+  padding: 10px;
+  background-color : var(--bg);
+  border-radius: 100%;
+  text-align: center;
+  margin-bottom : 25px;
+}
+
+
+
+/*--------------------------------------
+About
+--------------------------------------*/
+
+.about {
+  color: var(--bc);
+  background-image : var(--nw);
+  background-size: cover;
+  text-align :center;
+}
+
+
+/*--------------------------------------
+plan
+--------------------------------------*/
+
+.plan {
+  color: var(--bc);
+  background-image : var(--nw);
+  background-size: cover;
+  text-align :center;
+}
+
+
+/*--------------------------------------
+our works
+--------------------------------------*/
+
+.works {
+  background-color : var(--bbg);
+}
+
+.wt {
+  font-size: 24px ;
+}
+
+.lay4 {
+  padding-top : 250px;
+  padding-bottom :30px ;
+  background-color : rgb(0,0,0,0.45);
+  background-blend-mode: color;
+  background-size: cover;
+  background-position: center;
+  margin-bottom : 50px ;
+}
+
+.inteback {
+  background-image: url('/Images/Background/mbr-1.jpg');
+}
+
+.portback {
+  background-image: url('/Images/Background/mbr-2.jpg');
+}
+
+.artback {
+  background-image : url('/Images/Background/mbr-3.jpg');
+}
+
+
+/*--------------------------------------
+portfolio 
+--------------------------------------*/
+
+.portfolio {
+  background-image : url('/Images/Background/photo-1594486334874-b3a96d47db0c.jpeg');
+  background-size: cover ;
+}
+
+.portfolio .lay4:nth-child(3) {
+  margin-bottom :20px;
+}
+
+
+/*--------------------------------------
+hello
+--------------------------------------*/
+
+.hello {
+  background-image : var(--lg);
+}
+.px40 {
+  font-size: 40px;
+}
+
+
+
+/*--------------------------------------
+Contact form 
+--------------------------------------*/
+
+.contact {
+  background-image: url('/Images/Background/mbr-4.jpg');
+  background-size: cover ;
+  background-position: center;
+  background-attachment: fixed;
+  
+}
+
+.holder{
+  background: var(--bg);
+  box-shadow: 0 8px 32px 0 var(--bs);
+  backdrop-filter: blur( 15px );
+  -webkit-backdrop-filter: blur( 15px );
+  border: 1px solid var(--bdc);
+  text-align: center;
+  margin-top: 50px;
+}
+
+h3{
+  font-family: 'Ubuntu', sans-serif;
+  color:#FFFFFF;
+}
+
+.o {
+  font-family: 'Ubuntu', sans-serif;
+  align-self: center;
+  justify-self: center;
+  padding-left:15px;
+  font-size: 20px;
+  margin-bottom : 10px;
+  border-width: 1px;
+  border-color: var(--bdc);
+  box-shadow: 0 8px 32px 0 var(--bs);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 10px;
+  border-style: inset;
+  background-color: var(--bg);
+  width:100%;
+  outline:none;
+}
+.t {
+  border-radius: 50px;
+}
+
+
+
+/*--------------------------------------
+footer 
+--------------------------------------*/
+ 
+.footer {
+  background-image: url('/Images/Background/images.png');
+  background-size: cover;
+}
+
+.tal {
+  text-align: left;
+}
+
