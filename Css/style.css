@@ -1,4 +1,26 @@
 /* -------------------------------------
+Style 
+--------------------------------------*/
+
+/* -------------------------------------
+=> colors
+=> Button
+=> General
+=> header
+=> menu bar
+=> Home
+=> Services
+=> About
+=> plan
+=> our works
+=> porfolio
+=> hello
+=> Contact form
+=> footer
+--------------------------------------*/
+
+
+/* -------------------------------------
 colors
 --------------------------------------*/
 :root{
@@ -44,7 +66,7 @@ General
   padding: 0px;
 }
 body { 
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
   color: var(--tc);
   text-align : center;
 }

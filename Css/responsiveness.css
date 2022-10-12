@@ -1,0 +1,36 @@
+/*----------------------------
+Device responsiveness
+-----------------------------*/
+
+/*-----------------------------
+Widths
+-----------------------------*/
+
+/*---------------------------
+1000px
+----------------------------*/
+
+@media only screen and (min-width: 1000px){
+    .row1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #lay1 {
+        transform: rotate(-90deg);
+        margin-top: 110px;
+        height: fit-content;
+    }
+
+    .row3 img {
+        width: 350px;
+        margin-right: 50px;
+    }
+    .row3 {
+        display: flex;
+        justify-content: space-between;
+    }
+    .row3 div:nth-child(2) {
+        margin-top: 0px;
+    }
+}
