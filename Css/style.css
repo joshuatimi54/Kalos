@@ -183,7 +183,7 @@ Services
 --------------------------------------*/
 
 .services {
-  background-image : url('Images/Background/images4.jpeg');
+  background-image : url('/Images/Background/images4.jpeg');
   text-align : center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -254,15 +254,15 @@ our works
 }
 
 .inteback {
-  background-image: url('Images/Background/mbr-1.jpg');
+  background-image: url('/Images/Background/mbr-1.jpg');
 }
 
 .portback {
-  background-image: url('Images/Background/mbr-2.jpg');
+  background-image: url('/Images/Background/mbr-2.jpg');
 }
 
 .artback {
-  background-image : url('Images/Background/mbr-3.jpg');
+  background-image : url('/Images/Background/mbr-3.jpg');
 }
 
 
@@ -271,7 +271,7 @@ portfolio
 --------------------------------------*/
 
 .portfolio {
-  background-image : url('Images/Background/photo-1594486334874-b3a96d47db0c.jpeg');
+  background-image : url('/Images/Background/photo-1594486334874-b3a96d47db0c.jpeg');
   background-size: cover ;
 }
 
@@ -299,7 +299,7 @@ Contact form
 --------------------------------------*/
 
 .contact {
-  background-image: url('Images/Background/mbr-4.jpg');
+  background-image: url('/Images/Background/mbr-4.jpg');
   background-size: cover ;
   background-position: center;
   background-attachment: fixed;
