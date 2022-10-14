@@ -19,6 +19,12 @@ Style
 => footer
 --------------------------------------*/
 
+/*-- Import CSS --*/
+
+@import url(hover.css);
+@import url(3d_design.css);
+@import url(animation.css);
+
 
 /* -------------------------------------
 colors
@@ -66,7 +72,7 @@ General
   padding: 0px;
 }
 body { 
-  font-family: 'Montserrat';
+  font-family: 'Ubuntu';
   color: var(--tc);
   text-align : center;
 }
@@ -107,6 +113,7 @@ header
 
 .navbar {
   background-color: var(--bbg);
+  display: non;
 }
 
 .logo img {
@@ -159,7 +166,7 @@ Home
 --------------------------------------*/
 
 .home {
-  padding-top: 150px;
+  padding-top: 50px;
   padding-bottom : 50px;
   background-color: var(--bbg);
 }

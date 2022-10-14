@@ -1,52 +1,140 @@
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <title>Kalos</title>
-  
-  <!-- bootstrap offline -->
-  
-  <link rel="stylesheet" href="Css/bootstrap.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- bootstrap online -->
+    <title>Kalos</title>
 
-  <!-- the offline bootstrap have been edited no need for the online function -->
-  <!--
+    <!-- bootstrap offline -->
+
+    <link rel="stylesheet" href="Css/bootstrap.min.css" />
+
+    <!-- bootstrap online -->
+
+    <!-- the offline bootstrap have been edited no need for the online function -->
+    <!--
     Edited part
       >nav-link color
-  -->  
+  -->
 
-<!--link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">
-  </script --> 
-  
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="Css/style.css">
-  <link rel="stylesheet" href="Css/3d_design.css">
-  <link rel="stylesheet" href="Css/responsiveness.css">
+  </script -->
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="Css/style.css" />
+    <link rel="stylesheet" href="Css/hover.css" />
+    <link rel="stylesheet" href="Css/3d_design.css" />
+    <link rel="stylesheet" href="Css/animation.css" />
+    <link rel="stylesheet" href="Css/responsiveness.css" />
 
-<!-- fontawesome 5 -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
-<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
 
-<!-- google font -->
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- fontawesome 5 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
 
-</head>
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
+    <!-- SVG -->
+
+    <div class="wave">
+      <svg
+        width="100%"
+        height="100%"
+        id="svg"
+        viewBox="0 0 1440 700"
+        xmlns="http://www.w3.org/2000/svg"
+        class="transition duration-300 ease-in-out delay-150"
+      >
+        <defs>
+          <linearGradient id="gradient" x1="0%" y1="54%" x2="100%" y2="46%">
+            <stop offset="5%" stop-color="#c850c0"></stop>
+            <stop offset="95%" stop-color="#ffcc70"></stop>
+          </linearGradient>
+        </defs>
+        <path
+          d="M 0,700 C 0,700 0,175 0,175 C 72.9974358974359,177.75897435897434 145.9948717948718,180.5179487179487 217,187 C 288.0051282051282,193.4820512820513 357.0179487179487,203.68717948717946 439,203 C 520.9820512820513,202.31282051282054 615.9333333333333,190.73333333333338 703,178 C 790.0666666666667,165.26666666666662 869.248717948718,151.37948717948714 947,163 C 1024.751282051282,174.62051282051286 1101.071794871795,211.74871794871797 1183,218 C 1264.928205128205,224.25128205128203 1352.4641025641026,199.62564102564102 1440,175 C 1440,175 1440,700 1440,700 Z"
+          stroke="none"
+          stroke-width="0"
+          fill="url(#gradient)"
+          fill-opacity="0.4"
+          class="transition-all duration-300 ease-in-out delay-150 path-0"
+          transform="rotate(-180 720 350)"
+        ></path>
+        <defs>
+          <linearGradient id="gradient" x1="0%" y1="54%" x2="100%" y2="46%">
+            <stop offset="5%" stop-color="#c850c0"></stop>
+            <stop offset="95%" stop-color="#ffcc70"></stop>
+          </linearGradient>
+        </defs>
+        <path
+          d="M 0,700 C 0,700 0,350 0,350 C 79.72564102564101,337.6871794871795 159.45128205128202,325.374358974359 239,336 C 318.548717948718,346.625641025641 397.92051282051284,380.18974358974356 475,371 C 552.0794871794872,361.81025641025644 626.8666666666667,309.8666666666667 718,306 C 809.1333333333333,302.1333333333333 916.6128205128207,346.3435897435897 1002,358 C 1087.3871794871793,369.6564102564103 1150.6820512820511,348.7589743589744 1220,342 C 1289.3179487179489,335.2410256410256 1364.6589743589743,342.6205128205128 1440,350 C 1440,350 1440,700 1440,700 Z"
+          stroke="none"
+          stroke-width="0"
+          fill="url(#gradient)"
+          fill-opacity="0.53"
+          class="transition-all duration-300 ease-in-out delay-150 path-1"
+          transform="rotate(-180 720 350)"
+        ></path>
+        <defs>
+          <linearGradient id="gradient" x1="0%" y1="54%" x2="100%" y2="46%">
+            <stop offset="5%" stop-color="#c850c0"></stop>
+            <stop offset="95%" stop-color="#ffcc70"></stop>
+          </linearGradient>
+        </defs>
+        <path
+          d="M 0,700 C 0,700 0,525 0,525 C 52.889743589743574,493.2 105.77948717948715,461.4 197,472 C 288.22051282051285,482.6 417.7717948717949,535.6000000000001 507,544 C 596.2282051282051,552.3999999999999 645.1333333333332,516.2 718,504 C 790.8666666666668,491.79999999999995 887.6948717948719,503.5999999999999 981,523 C 1074.305128205128,542.4000000000001 1164.0871794871794,569.4 1240,571 C 1315.9128205128206,572.6 1377.9564102564104,548.8 1440,525 C 1440,525 1440,700 1440,700 Z"
+          stroke="none"
+          stroke-width="0"
+          fill="url(#gradient)"
+          fill-opacity="1"
+          class="transition-all duration-300 ease-in-out delay-150 path-2"
+          transform="rotate(-180 720 350)"
+        ></path>
+      </svg>
+    </div>
+
+    <!-- loading -->
+
+    <div class="loading bg-primary">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
     <!-- header -->
 
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand logo" href="#"><img src="Images/Brand-image/kalos logo new black.png" alt="Logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <a class="navbar-brand logo" href="#"
+          ><img src="Images/Brand-image/kalos logo new black.png" alt="Logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
           <span class="menu" onclick="myFunction(this)">
             <div class="bar1"></div>
             <div class="bar2"></div>
@@ -71,257 +159,228 @@
         </div>
       </div>
     </nav>
-    
+
     <!-- animation -->
 
-    <div >
-      <div>
-        <span></span>
-        <span></span>
-        <span></span>
+    <div class="animation">
+      <div class="box p-3">
+        <span style="--i: 1"
+          ><img src="Images/Animation-image/SAM_2062.jpg" alt="Image"
+        /></span>
+        <span style="--i: 2"
+          ><img src="Images/Animation-image/SAM_2078.jpg" alt="Image"
+        /></span>
+        <span style="--i: 3"
+          ><img src="Images/Animation-image/SAM_2074.jpg" alt="Image"
+        /></span>
+        <span style="--i: 4"
+          ><img src="Images/Animation-image/SAM_2057.jpg" alt="Image"
+        /></span>
+        <span style="--i: 5"
+          ><img src="Images/Animation-image/SAM_2068.jpg" alt="Image"
+        /></span>
+        <span style="--i: 6"
+          ><img src="Images/Animation-image/SAM_2078.jpg" alt="Image"
+        /></span>
+        <span style="--i: 7"
+          ><img src="Images/Animation-image/SAM_2062.jpg" alt="Image"
+        /></span>
+        <span style="--i: 8"
+          ><img src="Images/Animation-image/SAM_2091.jpg" alt="Image"
+        /></span>
       </div>
     </div>
 
     <!-- Home -->
-    
+
     <div id="Home" class="home bc">
-      <div class="row1 p-3 container justify-content-around ">
+      <div class="row1 p-3 container justify-content-around">
         <div id="lay1" class="container mb-5 all lay1 p-4">
-          <div class="container h2 mt-3">
-            Photographer
-          </div>
+          <div class="container h2 mt-3">Photographer</div>
           <div class="mt-3">
-            Lorem ipsum dolor sit consectetur adipiscing elit. Mauris ultrices risus eget nunc ullamcorper, ut consectetur eros mattis. Praesent lobortis in est sit amet pretium.
+            Lorem ipsum dolor sit consectetur adipiscing elit. Mauris ultrices
+            risus eget nunc ullamcorper, ut consectetur eros mattis. Praesent
+            lobortis in est sit amet pretium.
           </div>
         </div>
         <div class="all mb-5 lay2">
-          <img src="Images/Others/mbr.jpeg" alt="Image"
-          >
+          <img src="Images/Others/mbr.jpeg" alt="Image" />
         </div>
       </div>
     </div>
-      
+
     <!-- Our Services-->
-    
+
     <div class="services p-3">
-      <div class="h1 p-5">Our Services
-      </div>
+      <div class="h1 p-5">Our Services</div>
       <div class="all row lay3 p-3 justify-content-around">
         <div class="col-sm-3 mb-5">
           <div class="icon container">
-            <i class='fa fa-lightbulb-o'></i>
+            <i class="fa fa-lightbulb-o"></i>
           </div>
           <div>
-            <div class="h4">
-              Interior Photography
-            </div>
+            <div class="h4">Interior Photography</div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu risus eget sapien pellentesque porttitor nec ut velit.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu
+              risus eget sapien pellentesque porttitor nec ut velit.
             </p>
           </div>
         </div>
         <div class="col-sm-3 mb-5">
           <div class="icon container">
-            <i class='fas fa-user-circle'></i>
+            <i class="fas fa-user-circle"></i>
           </div>
           <div>
-            <div class="h4">
-              Interior Photography
-            </div>
+            <div class="h4">Interior Photography</div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu risus eget sapien pellentesque porttitor nec ut velit.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu
+              risus eget sapien pellentesque porttitor nec ut velit.
             </p>
-          </div> 
+          </div>
         </div>
         <div class="col-sm-3 mb-5">
           <div class="icon container">
             <i class="fab fa-accusoft"></i>
           </div>
           <div>
-            <div class="h4">
-               Interior Photography
-            </div>
+            <div class="h4">Interior Photography</div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu risus eget sapien pellentesque porttitor nec ut velit.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu
+              risus eget sapien pellentesque porttitor nec ut velit.
             </p>
           </div>
         </div>
       </div>
     </div>
-    
+
     <!-- About -->
-    
+
     <div id="About" class="about pt-5">
       <div class="row3 container p-3">
         <div class="all lay2 mb-5">
-          <img src="Images/Others/mbr-1.jpeg" alt="Image">
+          <img src="Images/Others/mbr-1.jpeg" alt="Image" />
         </div>
         <div class="all p-5 container lay3">
-          <div class="h1 mb-3">
-            About Us
-          </div>
+          <div class="h1 mb-3">About Us</div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultrices risus eget nunc ullamcorper, ut consectetur eros mattis. Praesent lobortis in est sit amet pretium. <br> <br>
-            Fusce ante libero, ultrices sed ullamcorper quis, volutpat in metus. Mauris pulvinar, neque in porttitor faucibus, tortor enim.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+            ultrices risus eget nunc ullamcorper, ut consectetur eros mattis.
+            Praesent lobortis in est sit amet pretium. <br />
+            <br />
+            Fusce ante libero, ultrices sed ullamcorper quis, volutpat in metus.
+            Mauris pulvinar, neque in porttitor faucibus, tortor enim.
           </p>
         </div>
       </div>
     </div>
-    
+
     <!-- our works -->
-    
+
     <div id="Our work" class="works p-3">
       <div class="mt-5 bt">
         <div class="wt">Our works</div>
         <div class="h4">Lorem ipsum dolor sit amet.</div>
       </div>
       <div class="p-3 row mt-3 mb-5 justify-content-around">
-        <div class="container lay4 inteback all col-sm-3 ">
-          <div class="h5">
-            Interior Photography
-          </div>
-          <div>
-            Lorem ipsum dolor sit amet.
-          </div>
+        <div class="container lay4 inteback all col-sm-3">
+          <div class="h5">Interior Photography</div>
+          <div>Lorem ipsum dolor sit amet.</div>
         </div>
-        <div class="container lay4 portback all col-sm-3 ">
-          <div class="h5">
-            Portrait Photo
-          </div>
-          <div>
-            Lorem ipsum dolor sit amet.
-          </div>
+        <div class="container lay4 portback all col-sm-3">
+          <div class="h5">Portrait Photo</div>
+          <div>Lorem ipsum dolor sit amet.</div>
         </div>
-        <div class="container lay4 artba all col-sm-3 ">
-          <div class="h5">
-            Art Photo
-          </div>
-          <div>
-            Lorem ipsum dolor sit amet.
-          </div>
+        <div class="container lay4 artback all col-sm-3">
+          <div class="h5">Art Photo</div>
+          <div>Lorem ipsum dolor sit amet.</div>
         </div>
       </div>
     </div>
-    
+
     <!-- Pricing plan -->
-    
+
     <div class="plan p-3">
       <div class="h1 mt-5">Package list</div>
       <p class="h3">choose a plan</p>
       <div class="row p-3 justify-content-arond">
         <div class="container p-3 col-sm-3 lay3 all">
-          <div class="h1 mb-3 mt-3">
-            $78
-          </div>
+          <div class="h1 mb-3 mt-3">$78</div>
           <div class="h3">Starter</div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultrices risus eget nunc ullamcorper.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+            ultrices risus eget nunc ullamcorper.
           </p>
           <button class="mb-2" type="button">Buy now</button>
         </div>
         <div class="container p-3 col-sm-3 lay3 all">
-          <div class="h1 mb-3 mt-3">
-            $78
-          </div>
+          <div class="h1 mb-3 mt-3">$78</div>
           <div class="h3">Starter</div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultrices risus eget nunc ullamcorper.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+            ultrices risus eget nunc ullamcorper.
           </p>
           <button class="mb-2" type="button">Buy now</button>
         </div>
         <div class="container p-3 col-sm-3 lay3 all">
-          <div class="h1 mb-3 mt-3">
-            $78
-          </div>
+          <div class="h1 mb-3 mt-3">$78</div>
           <div class="h3">Starter</div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultrices risus eget nunc ullamcorper.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+            ultrices risus eget nunc ullamcorper.
           </p>
           <button class="mb-2" type="button">Buy now</button>
         </div>
       </div>
     </div>
-    
-    
+
     <!-- Our portfolio -->
-    
+
     <div id="portfolio" class="portfolio p-3">
       <div class="mt-5 bt">
-        <div class="wt">
-          Our portfolio 
-        </div>
-        <div class="h4">
-          Our work speaks about us.
-        </div>
+        <div class="wt">Our portfolio</div>
+        <div class="h4">Our work speaks about us.</div>
       </div>
+      
       <div class="p-3 row mt-3 justify-content-around">
-        <div class="container lay4 inteback all col-sm-3 ">
-          <div class="h5">
-            Interior Photography
-          </div>
-          <div>
-            Lorem ipsum dolor sit amet.
-          </div>
+        <div class="container lay4 inteback all col-sm-3">
+          <div class="h5">Interior Photography</div>
+          <div>Lorem ipsum dolor sit amet.</div>
         </div>
-        <div class="container lay4 portback all col-sm-3 ">
-          <div class="h5">
-            Portrait Photo
-          </div>
-          <div>
-            Lorem ipsum dolor sit amet.
-          </div>
+        <div class="container lay4 portback all col-sm-3">
+          <div class="h5">Portrait Photo</div>
+          <div>Lorem ipsum dolor sit amet.</div>
         </div>
-        <div class="container lay4 artback all col-sm-3 ">
-          <div class="h5">
-            Art Photo
-          </div>
-          <div>
-            Lorem ipsum dolor sit amet.
-          </div>
+        <div class="container lay4 artback all col-sm-3">
+          <div class="h5">Art Photo</div>
+          <div>Lorem ipsum dolor sit amet.</div>
         </div>
       </div>
       <div class="row p-3 mb-5 justify-content-around">
-        <div class="container lay4 inteback all col-sm-3 ">
-          <div class="h5">
-            Interior Photography
-          </div>
-          <div>
-            Lorem ipsum dolor sit amet.
-          </div>
+        <div class="container lay4 inteback all col-sm-3">
+          <div class="h5">Interior Photography</div>
+          <div>Lorem ipsum dolor sit amet.</div>
         </div>
-        <div class="container lay4 portback all col-sm-3 ">
-          <div class="h5">
-            Portrait Photo
-          </div>
-          <div>
-            Lorem ipsum dolor sit amet.
-          </div>
+        <div class="container lay4 portback all col-sm-3">
+          <div class="h5">Portrait Photo</div>
+          <div>Lorem ipsum dolor sit amet.</div>
         </div>
-        <div class="container mb-5 lay4 artback all col-sm-3 ">
-          <div class="h5">
-            Art Photo
-          </div>
-          <div>
-            Lorem ipsum dolor sit amet.
-          </div>
+        <div class="container mb-5 lay4 artback all col-sm-3">
+          <div class="h5">Art Photo</div>
+          <div>Lorem ipsum dolor sit amet.</div>
         </div>
       </div>
     </div>
-    
+
     <!-- hello -->
-    
+
     <div class="p-5 hello bt">
       <div class="container mb-3 p-3 all lay3">
-        <div class="mt-3">
-          HAVE A PROJECT IN MIND? 
-        </div>
+        <div class="mt-3">HAVE A PROJECT IN MIND?</div>
         <div class="h1 px40">Say Hello</div>
         <div>LET GET IT DONE</div>
         <div>
           <a href="mailto:kalos@gamil.com">
-            <email>
-              kalos@gmail.com
-            </email>
+            <email> kalos@gmail.com </email>
           </a>
         </div>
         <div>
@@ -331,38 +390,43 @@
         </div>
       </div>
     </div>
-    
 
     <!-- contact form -->
-    
+
     <div id="Contact us" class="p-3 contact">
       <div class="container mb-5 all p-4 col-lg-4 holder">
         <form action="bt">
           <div class="h3 mt-5 mb-4">Contact Us</div>
-          <input class="o" type="text" placeholder="Name">
-          
-          <input class="o" type="text" placeholder="E-mail">
-          
-          <input class="o" type="text" placeholder="Subject">
-          
-          <input class="o" type="number" placeholder="phone">
-          
-          <textarea class="o" name="message" id="" cols="30" rows="10" placeholder="message"></textarea>
-          
+          <input class="o" type="text" placeholder="Name" />
+
+          <input class="o" type="text" placeholder="E-mail" />
+
+          <input class="o" type="text" placeholder="Subject" />
+
+          <input class="o" type="number" placeholder="phone" />
+
+          <textarea
+            class="o"
+            name="message"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="message"
+          ></textarea>
+
           <button class="t o" type="submit">Submit</button>
         </form>
       </div>
     </div>
-    
-    
+
     <!-- footer -->
-    
+
     <div class="footer">
       <div class="container p-3 row justify-content-around">
         <div class="col-sm-3">
           <div class="footer-logo">
             <a href="#Home">
-              <img src="/Images/Brand-image/kalos logo new white.png" alt="">
+              <img src="/Images/Brand-image/kalos logo new white.png" alt="" />
             </a>
           </div>
           <div>
@@ -370,32 +434,30 @@
             <div></div>
           </div>
         </div>
-        <div class="col-sm-3 ">
+        <div class="col-sm-3">
           <div>
-            <div class="h4 mt-3 ">About Us</div>
+            <div class="h4 mt-3">About Us</div>
             <div>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultrices risus eget nunc ullamcorper, ut consectetur eros mattis. Convallis fringilla arcu consequat condimentum lectus.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              ultrices risus eget nunc ullamcorper, ut consectetur eros mattis.
+              Convallis fringilla arcu consequat condimentum lectus.
             </div>
           </div>
           <div>
             <div class="h4 mt-3">Themes</div>
             <div>
               <ul>
-               <li>
-                 Work
-               </li>
-               <li><a href="#">Team</a></li>
-               <li><a href="#"></a>pricing </li>
-               <li><a href="#">info</a></li>
+                <li>Work</li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#"></a>pricing</li>
+                <li><a href="#">info</a></li>
               </ul>
             </div>
           </div>
         </div>
-        <div class="col-sm-3 ">
+        <div class="col-sm-3">
           <div>
-            <div class="h4 mt-3">
-              Company
-            </div>
+            <div class="h4 mt-3">Company</div>
             <div>
               <ul>
                 <li><a href="#">About </a></li>
@@ -406,9 +468,7 @@
             </div>
           </div>
           <div>
-            <div class=" mt-3 h4">
-              Support
-            </div>
+            <div class="mt-3 h4">Support</div>
             <div>
               <ul>
                 <li><a href="#">Contact</a></li>
@@ -421,11 +481,9 @@
         </div>
       </div>
     </div>
-    
-    
-  <!-- Javascript -->
-  
-  <script src="Javascript/main.js"></script>
-</body>
 
+    <!-- Javascript -->
+
+    <script src="Javascript/main.js"></script>
+  </body>
 </html>
