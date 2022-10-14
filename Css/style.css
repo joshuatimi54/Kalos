@@ -111,11 +111,6 @@ h4 {
 header 
 --------------------------------------*/
 
-.navbar {
-  background-color: var(--bbg);
-  display: non;
-}
-
 .logo img {
   width: 100px;
 }

@@ -40,6 +40,7 @@ image show
   display: flex;
   padding-top: 20px;
   padding-bottom: 50px;
+  overflow: hidden;
   background-color: var(--bs);
   min-height: 100vh;
   justify-content: center;
@@ -78,6 +79,5 @@ image show
   transform-origin: center;
   transform-style: preserve-3d;
   transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
-  -webkit-box-reflect: below 0px linear-gradient(transparent,#0004);
 }
 
