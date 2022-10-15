@@ -35,6 +35,7 @@ colors
   --bbg : rgb(189,200,242);
   --bg : rgba( 255, 255, 255, 0.3);
   --bs : rgba(31, 38, 135, 0.37);
+  --bb : rgb(8,20,44);
   --nw : linear-gradient(43deg, #94E1F2 0%, #C850C0 46%, #FFCC70 100%);
   --bc : rgb(0,0,0);
   --lg : linear-gradient(223deg, #94E1F2 0%, #C850C0 46%, #FFCC70 100%);
@@ -75,6 +76,7 @@ body {
   font-family: 'Ubuntu';
   color: var(--tc);
   text-align : center;
+  scroll-behavior: smooth;
 }
 .grad {
   background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
@@ -244,6 +246,7 @@ our works
 }
 
 .lay4 {
+  height: 50vh;
   padding-top : 250px;
   padding-bottom :30px ;
   background-color : rgb(0,0,0,0.45);
@@ -254,15 +257,15 @@ our works
 }
 
 .inteback {
-  background-image: url('/Images/Background/mbr-1.jpg');
+  background-image: url('/mbr-1.jpg');
 }
 
 .portback {
-  background-image: url('/Images/Background/mbr-2.jpg');
+  background-image: url('/Images/mbr-2.jpg');
 }
 
 .artback {
-  background-image : url('/Images/Background/mbr-3.jpg');
+  background-image : url('/');
 }
 
 
@@ -349,7 +352,7 @@ footer
 --------------------------------------*/
  
 .footer {
-  background-image: url('/Images/Background/images.png');
+  background-color: var(--bb);
   background-size: cover;
   padding-top: 50px;
 }
