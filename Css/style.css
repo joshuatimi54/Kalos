@@ -197,16 +197,18 @@ Services
   margin-bottom: 50px;
 }
 
+/*
 .icon {
   font-size: 40px;
-  width : fit-content;
-  padding: 10px;
+  max-width : 75px;
+  height: 75px;
+  padding: 15px;
   background-color : var(--bg);
   border-radius: 100%;
   text-align: center;
   margin-bottom : 25px;
 }
-
+*/
 
 
 /*--------------------------------------
@@ -238,7 +240,7 @@ our works
 --------------------------------------*/
 
 .works {
-  background-color : var(--bbg);
+  background-image: url('/Images/Background/photo-1594486334874-b3a96d47db0c.jpeg');
 }
 
 .wt {
@@ -274,7 +276,7 @@ portfolio
 --------------------------------------*/
 
 .portfolio {
-  background-image : url('/Images/Background/photo-1594486334874-b3a96d47db0c.jpeg');
+  background-color: var(--bbg);
   background-size: cover ;
 }
 

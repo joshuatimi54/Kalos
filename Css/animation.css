@@ -38,7 +38,7 @@ loading
 }
 
 /*--------------------------------------
-image show 
+image show (rotating image)
 --------------------------------------*/
 .animation {
   display: flex;
@@ -56,15 +56,17 @@ image show
   width: 200px;
   height: 200px;
   transform-style: preserve-3d;
-  animation: animate 20s linear infinite;
+  transform: perspective(1000px);
+  animation: animate 100s linear infinite 10s;
 }
+
 
 @keyframes animate {
   0% {
-    transform: perspective(1000px) rotateY(0deg);
+    transform:perspective(1000px) rotateY(0deg);
   }  
   100% {
-    transform: perspective(1000px) rotateY(360deg);
+    transform:perspective(1000px) rotateY(360deg);
   }  
 }
 
